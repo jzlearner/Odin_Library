@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container-autofit">
+        <div class="grid-item">
+            <button id="addBookBtn">Click to add a book to the library</button>
+        </div>
+    </div>
+    <form class="add-book-form hideForm">
+        <label class="grid-item"><p>Title</p></label>
+        <input type="text" class="grid-item" id="form-title">
+        <label class="grid-item"><p>Author</p></label>
+        <input type="text" class="grid-item" id="form-author">
+        <label class="grid-item"><p>Pages</p></label>
+        <input type="text" class="grid-item" id="form-pages">
+        <label class="grid-item"><p>Read</p></label>
+        <input type="checkbox" class="grid-item" id="form-read">
+        <div class="form-buttons" class="grid-item">
+            <input type="button" class="grid-item" id="submit-form" value="Submit">
+            <input type="button" class="grid-item" id="close-form" value="Cancel">
+        </div>
+    </form>
+    <script src="Classes.js"></script>
+</body>
+</html>
